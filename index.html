@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>5 вёрст Ленинградская улица | Мурманск</title>
+    <title>5 вёрст Автозаводский парк | Нижний Новгород</title>
     <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
     <style>
         @font-face {
@@ -438,7 +438,7 @@
         <button class="btn-qr" onclick="openModal('modal_roles')">📖 Описание ролей</button>
         <button class="btn-qr" onclick="openModal('modal_guide')">📱 Гайд по приложению</button>
         <button class="btn-qr" onclick="openModal('modal_about')">🌳 О нас</button>
-        <button class="btn-qr" onclick="window.open('https://vk.ru/5verstleningradskaya')">🌐 Наши соцсети</button>
+        <button class="btn-qr" onclick="window.open('https://vk.ru/5verstavtozavodskiy')">🌐 Наши соцсети</button>
         <div style="text-align:center; margin-top:16px; font-size:11px; color:#999;">Версия 2.0 (2026)</div>
     </div>
     <div class="close-modal">Закрыть</div>
@@ -495,10 +495,10 @@
 
 <div id="modal_about" class="modal" onclick="closeModal('modal_about')">
     <div class="modal-content" onclick="event.stopPropagation()">
-        <h2>5 вёрст Ленинградская улица | Мурманск</h2>
+        <h2>5 вёрст Автозаводский парк | Нижний Новгород</h2>
         <div style="font-size:13px; line-height:1.5; color:#555;">
-            Бесплатные еженедельные старты на Ленинградской улице в Мурманске каждую субботу в 09:00.<br><br>
-            Разработано для сообщества "5 вёрст Ленинградская улица | Мурманск".
+            Бесплатные еженедельные старты в Автозаводском парке в Нижнем Новгороде каждую субботу в 09:00.<br><br>
+            Разработано для сообщества "5 вёрст Автозаводский парк | Нижний Новгород".
         </div>
     </div>
     <div class="close-modal">Назад</div>
@@ -560,7 +560,7 @@
         </div>
         
         <div style="background: linear-gradient(135deg, #2B326D, #4f5ca8); color:white; padding:12px 14px; border-radius:12px; margin:10px 0 16px 0; text-align:center; font-weight:700; font-size:14px; box-shadow:0 4px 12px rgba(43,50,109,0.2);">
-            📍 <span id="park_name">Ленинградская улица | Мурманск</span>
+            📍 <span id="park_name">Автозаводский парк | Нижний Новгород</span>
         </div>
         
         <div id="welcome_back" class="welcome-msg"></div>
@@ -640,8 +640,8 @@
         <div id="marshal_container" style="display:none;">
             <label>Где будет стоять Маршал?</label>
             <select id="marshal_select" onchange="handleMarshalSelect()">
-                <option value="Точка 1">Точка 1</option>
-                <option value="Точка 2">Точка 2</option>
+                <option value="у кафе 'У озера'">у кафе "У озера"</option>
+                <option value="у касс 'Катушки'">у касс "Катушки"</option>
                 <option value="custom">Свой вариант...</option>
             </select>
         </div>
@@ -871,7 +871,7 @@
             ctx.fillStyle = '#ffffff';
             ctx.font = 'bold 52px "5verstFont", -apple-system, sans-serif';
             ctx.textAlign = 'center';
-            ctx.fillText('5 вёрст Ленинградская улица | Мурманск', 540, 390);
+            ctx.fillText('5 вёрст Автозаводский парк | Нижний Новгород', 540, 390);
 
             ctx.fillStyle = '#E6564C';
             ctx.font = 'bold 44px "5verstFont", -apple-system, sans-serif';
